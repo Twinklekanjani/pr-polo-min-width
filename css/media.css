@@ -36,6 +36,13 @@
         width: 50%;
         padding: 0 10px;
     }
+    .col-md-4{
+        width: 33.33%;
+    }
+    .d-md-flex{
+        display: flex;
+    }
+    
 }
 
 /* md */
@@ -76,6 +83,9 @@
 
     header nav ul li {
         display: flex;
+    }
+    .hero .hero-content h1{
+        font-size: 88px;
     }
 }
 

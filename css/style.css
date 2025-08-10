@@ -262,7 +262,7 @@ header .menu:hover nav ul{
     font-weight: 300;
 }
 .hero .hero-content h1{
-    font-size: 88px;
+    font-size: 60px;
     font-weight: 500;
 }
 .hero .hero-content p{
@@ -338,8 +338,11 @@ header .menu:hover nav ul{
 /* card section start */
 .card{
     padding-top: 40px;
-    height: 150px;
+    height: fit-content;
     background-color: #F7F9FB;
+}
+.card-content{
+    margin: 20px;
 }
 /* card section end */
 .product{
@@ -359,35 +362,12 @@ header .menu:hover nav ul{
     position: absolute;
     top: 0;
     opacity: 0;
-    
+   transition: all 0.3s ease; 
 }
 .product-item1 .product-item1-content:hover{
     opacity: 1;
 }
-.product .product-item2{
-    height: 400px;
-    background-image: url(../images/girl1\ hover.jpg);
-    transition: all 0.3s ease;
-}
-.product .product-item2:hover{
-    background-image: url(../images/girl.jpg);
-}
-.product .product-item3{
-    height: 400px;
-    background-image: url(../images/female-in.jpg);
-    transition: all 0.3s ease;
-}
-.product .product-item3:hover{
-    background-image: url(../images/female\ hover.jpg);
-}
-.product .product-item4{
-    height: 400px;
-    background-image: url(../images/girl1.jpg);
-    transition: all 0.3s ease;
-}
-.product .product-item4:hover{
-    background-image: url(../images/girl1\ hover.jpg);
-}
+
 /* shop prouct section start */
 .item{
     margin: 25px 0;
@@ -440,3 +420,41 @@ header .menu:hover nav ul{
     text-align: center;
 }
 /* category section end */
+/* footer section start */
+.footer{
+    height: fit-content;
+    background-color: #f8f9fa;
+    margin-top: 35px;
+}
+.footer h3{
+    font-weight: 500;
+}
+.footer .purchase{
+    color: #fff;
+    padding: 5px 10px;
+    background-color: #0000ff;
+    border-radius: 5px;
+}
+.footer .col-12 ul{
+    margin: 0 25px;
+    padding:0 25px;
+}
+.footer .col-12 ul li{
+    line-height: 40px;
+}
+.footer .col-12 ul li:hover{
+    color: #0000ff;
+}
+/* footer section end */
+
+/* footer-bottom section start */
+.footer-bottom{
+    width: 100%;
+    background-color: #EFF1F4;
+}
+.footer-bottom p{
+    padding: 10px 0;
+    color: #484848;
+    text-align: center;
+}
+/* footer-bottom section end */
